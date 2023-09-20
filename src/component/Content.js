@@ -1,9 +1,12 @@
 import React from 'react';
 import And from './And';
+import { Link } from 'react-router-dom'
+
 
 const Content = () => {
   return (
     <div>
+        
         <div className="container-fluid py-5">
             <div className="container py-5">
                 <div className="row align-items-center">
@@ -15,9 +18,9 @@ const Content = () => {
                     </div>
                     <div className="col-lg-7">
                         <div className="text-left mb-4">
-                            <h5 className="text-primary text-uppercase mb-3" style={{ letterSpacing: '5px' }}>
+                            <h3 className="text-primar text-uppercase mb-3" style={{ letterSpacing: '5px' }}>
                                 TỔNG QUAN 
-                            </h5>
+                            </h3>
                             <h1>TRƯỜNG CAO ĐẲNG AN NINH MẠNG ISPACE </h1>
                         </div>
                         <p>
@@ -33,6 +36,7 @@ const Content = () => {
         <div className="hmv-box">
             <div className="container">
                 <div className="row">
+                    <h1 className="text-primar">CHƯƠNG TRÌNH ĐÀO TẠO</h1>
                     <div className="col-lg-4 col-md-6 col-12">
                             <div className="inner-hmv">
                                 <div className="icon-box-hmv">
