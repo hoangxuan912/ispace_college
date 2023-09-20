@@ -59,7 +59,7 @@ const Navigation = () => {
                             <a href="#">Khóa Học Ngắn Hạn</a>
                             <ul className="submenu2">
                                 <li><a href="#">Khóa học CEH</a></li>
-                                <li><a href="#">Khóa học AWS Cloud Foudation</a></li>
+                                <li><a href="">Khóa học AWS Cloud Foudation</a></li>
                             </ul>
                         </li>
                     </ul>
