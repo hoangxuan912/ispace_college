@@ -3,14 +3,15 @@ import './App.css';
 
 import Background from './component/Background';
 import Content from './component/Content';
-
+//import AWS from './KhoaNganHang/AWS';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+     {/* <Header/>
       <Background/>
-      <Content/>
+      <Content/>*/}
+       <AWS/>
     </div>
   );
 }
