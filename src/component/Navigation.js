@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom'
-
 
 
 const Navigation = () => {
@@ -12,9 +10,9 @@ const Navigation = () => {
             </a>
             <ul className="nav-item">
                 <li>
-                    <Link to="/">
+                    <a href="#">
                         <i className="fa-solid fa-house txt_deco"></i>
-                    </Link>
+                    </a>
                 </li>
                 <li>
                     <a href="#">
@@ -52,16 +50,16 @@ const Navigation = () => {
                         <li>
                             <a href="#">Cao Đẳng Chính Quy</a>
                             <ul className="submenu2">
-                                <li><Link to="/AnNinhMang">An Ninh Mạng</Link></li>
-                                <li><Link to="/PhatTrienPhanMem">Phát Triển Phần Mềm</Link></li>
-                                <li><Link to="/ThietKeDoHoa">Thiết Kế Đồ Họa</Link></li>
+                                <li><a href="#">An Ninh Mạng</a></li>
+                                <li><a href="#">Phát Triển Phần Mềm</a></li>
+                                <li><a href="#">Thiết Kế Đồ Họa</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Khóa Học Ngắn Hạn</a>
                             <ul className="submenu2">
                                 <li><a href="#">Khóa học CEH</a></li>
-                                <li><a href="#">Khóa học AWS</a></li>
+                                <li><a href="">Khóa học AWS Cloud Foudation</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -78,7 +76,7 @@ const Navigation = () => {
                     </ul>
                 </li>
                 <li>
-                    <Link to="/Dangkykhoahoc"><span>LIÊN HỆ</span></Link>
+                    <a href="#"><span>LIÊN HỆ</span></a>
                 </li>
 
                 {/* <i className="fa-sharp fa-solid fa-magnifying-glass search-icon" id="searchIcon"></i>
