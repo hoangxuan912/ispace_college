@@ -10451,8 +10451,8 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
-  background-color: #FF6600 !important;
+.bg-primar {
+  background-color: #495057 ;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -13621,11 +13621,14 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 .text-orange{
-  color: #cc5200 !important;
+  color: #F57e25 !important;
 }
 
 .text-primary {
   color: #FF6600 !important;
+}
+.text-primar{
+  color: #F89705;
 }
 
 a.text-primary:hover, a.text-primary:focus {
